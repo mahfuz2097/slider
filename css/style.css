@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.slider {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.slider-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 400px;
+}
